@@ -7,7 +7,7 @@ The Holochain Playground hApp will include these flows:
 Create your own DNA designs.
 
 1. I have an idea for a happ/DNA.
-2. I can pseudo-code it in [blockly](https://holochain-playground.github.com/blockly), or aggregate zomes from the library, and send it to you via a link.
+2. I can pseudo-code it in [blockly](https://holochain-playground.github.io/blockly), or aggregate zomes from the library, and send it to you via a link.
 3. You can review it and add comments, or also attacks.
 4. You can also fork it and provide alternative ways of doing things.
 5. We can compare ways of doing things side-by-side, seeing what behaviour each pseudo-code has when simulated in the playground.
@@ -37,6 +37,6 @@ Library of zomes, DNAs, etc., with blockly code.
 
 ## External resources
 
-- [Playground demo](https://holochain-playground.github.com/)
-- [Blockly demo](https://holochain-playground.github.com/blockly)
-- [Gym](https://holochain-gym.github.com/): this is sort of the static simplifyied version of what this hApp would be. It will also provide a nice basic set of learning exercises before getting immersed in it.
+- [Playground demo](https://holochain-playground.github.io/)
+- [Blockly demo](https://holochain-playground.github.io/blockly)
+- [Gym](https://holochain-gym.github.io/): this is sort of the static simplifyied version of what this hApp would be. It will also provide a nice basic set of learning exercises before getting immersed in it.
