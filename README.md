@@ -10,7 +10,7 @@ Create your own DNA designs.
 2. I can pseudo-code it in [blockly](https://holochain-playground.github.com/blockly), or aggregate zomes from the library, and send it to you via a link.
 3. You can review it and add comments, or also attacks.
 4. You can also fork it and provide alternative ways of doing things.
-5. We can compare ways of doing things side-by-side.
+5. We can compare ways of doing things side-by-side, seeing what behaviour each pseudo-code has when simulated in the playground.
 
 - Maybe in the future it will download a scaffolded happ structure?
 
