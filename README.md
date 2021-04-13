@@ -1,33 +1,38 @@
 # Holochain Playground hApp
 
-## Spaces
+The Holochain Playground hApp will include these flows:
 
-- Pattern library: library of zomes, DNAs, etc.
+## Design Lab
 
-I can create a DNA design using blockly.
-```
-![Alt text](https://g.gravizo.com/source/custom_mark13?https%3A%2F%2Fraw.githubusercontent.com%2FTLmaK0%2Fgravizo%2Fmaster%2FREADME.md)
-<details> 
-<summary></summary>
-custom_mark13
-@startuml;
-actor User;
-participant "First Class" as A;
-participant "Second Class" as B;
-participant "Last Class" as C;
-User -> A: DoWork;
-activate A;
-A -> B: Create Request;
-activate B;
-B -> C: DoWork;
-activate C;
-C -> B: WorkDone;
-destroy C;
-B -> A: Request Created;
-deactivate B;
-A -> User: Done;
-deactivate A;
-@enduml
-custom_mark13
-</details>
-```
+Create your own DNA designs.
+
+1. I have an idea for a happ/DNA.
+2. I can pseudo-code it in blockly, or aggregate zomes from the library, and send it to you via a link.
+3. You can review it and add comments, or also attacks.
+4. You can also fork it and provide alternative ways of doing things.
+5. We can compare ways of doing things side-by-side.
+
+## Dojo
+
+Problem statements, that the participant needs to satisfy with pseudo-code.
+
+1. I want to train myself in holochain design.
+2. I can browse different exercises for different use-cases and pick one.
+3. In that exercise, you have to pseudo-code a solution that satisfies the requirements.
+
+- When you are done with that exercise, maybe you get some points?
+- In the future, maybe these exercises can be grouped together in courses?
+
+## Library
+
+Library of zomes, DNAs, etc., with blockly code.
+
+- Maybe in the future you'll be able to upload `.wasm` zomes?
+
+---
+
+## External resources
+
+- [Playground demo](https://holochain-playground.github.com/)
+- [Blockly demo](https://holochain-playground.github.com/blockly)
+- [Gym](https://holochain-gym.github.com/): this is sort of the static simplifyied version of what this hApp would be. It will also provide a nice basic set of learning exercises before getting immersed in it.
