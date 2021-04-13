@@ -7,10 +7,12 @@ The Holochain Playground hApp will include these flows:
 Create your own DNA designs.
 
 1. I have an idea for a happ/DNA.
-2. I can pseudo-code it in blockly, or aggregate zomes from the library, and send it to you via a link.
+2. I can pseudo-code it in [blockly](https://holochain-playground.github.com/blockly), or aggregate zomes from the library, and send it to you via a link.
 3. You can review it and add comments, or also attacks.
 4. You can also fork it and provide alternative ways of doing things.
 5. We can compare ways of doing things side-by-side.
+
+- Maybe in the future it will download a scaffolded happ structure?
 
 ## Dojo
 
@@ -18,7 +20,9 @@ Problem statements, that the participant needs to satisfy with pseudo-code.
 
 1. I want to train myself in holochain design.
 2. I can browse different exercises for different use-cases and pick one.
-3. In that exercise, you have to pseudo-code a solution that satisfies the requirements.
+3. In that exercise, you have to pseudo-code a solution that satisfies the requirements:
+   - Is performant enough in terms of DHTOps and DHT Hops.
+   - Is resilient to some attacks.
 
 - When you are done with that exercise, maybe you get some points?
 - In the future, maybe these exercises can be grouped together in courses?
