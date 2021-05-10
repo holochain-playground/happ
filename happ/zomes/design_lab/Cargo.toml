@@ -1,0 +1,16 @@
+[package]
+authors = ["guillem.cordoba@gmail.com"]
+edition = "2018"
+name = "design_lab"
+version = "0.0.1"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+name = "design_lab"
+
+[dependencies]
+derive_more = "0"
+serde = "1"
+
+hdk = "0.0.100"
+holo_hash = "0.0.2-alpha.1"
